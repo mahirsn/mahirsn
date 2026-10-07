@@ -1,6 +1,6 @@
 <!-- Images are built by scripts/build.py; edit the text there. -->
 
-<a href="https://mahirsn.net"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg"><img src="assets/header-light.svg" alt="Muhammed Mahir Suna. Linux desktop tools, Android apps and Minecraft mods." width="100%"></picture></a>
+<a href="https://mahirsn.net"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg"><img src="assets/header-light.svg" alt="Muhammed Mahir Suna" width="100%"></picture></a>
 
 <p>
   <a href="https://mahirsn.net"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/link-website-dark.svg"><img src="assets/link-website-light.svg" alt="mahirsn.net" height="44"></picture></a>

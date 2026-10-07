@@ -52,7 +52,9 @@ logging.getLogger("fontTools.subset").setLevel(logging.ERROR)  # Geist's "meta" 
 
 def font_face(name, text):
     """A @font-face rule with the font cut down to the characters in text."""
-    font = TTFont(FONTS[name])
+    # Keep the font's own timestamp, so the same input gives the same bytes and
+    # a rebuild doesn't change every image.
+    font = TTFont(FONTS[name], recalcTimestamp=False)
     opts = Options()
     opts.flavor = "woff2"
     opts.layout_features = ["kern", "liga"]
@@ -121,16 +123,14 @@ def header(theme):
     t = THEMES[theme]
     w, h = 1200, 320
     name = "Muhammed Mahir Suna"
-    line = "Linux desktop tools, Android apps and Minecraft mods."
     handle = "@mahirsn"
-    css = font_face("sans-semibold", name) + font_face("sans", line) + font_face("mono", handle) + MOTION
-    return f"""<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" viewBox="0 0 {w} {h}" role="img" aria-label="{name}. {line}">
+    css = font_face("sans-semibold", name) + font_face("mono", handle) + MOTION
+    return f"""<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" viewBox="0 0 {w} {h}" role="img" aria-label="{name}">
 <style>{css}</style>
 <rect x="0.5" y="0.5" width="{w - 1}" height="{h - 1}" rx="22" fill="{t['card']}" stroke="{t['line']}"/>
 <g class="in">
- <text x="64" y="112" font-family="mono" font-size="22" fill="{t['muted']}">{handle}<tspan class="blink" fill="{t['accent']}">_</tspan></text>
- <text x="62" y="186" font-family="sans-semibold" font-size="64" letter-spacing="-2" fill="{t['ink']}">{name}</text>
- <text x="64" y="240" font-family="sans" font-size="26" fill="{t['muted']}">{escape(line)}</text>
+ <text x="64" y="138" font-family="mono" font-size="22" fill="{t['muted']}">{handle}<tspan class="blink" fill="{t['accent']}">_</tspan></text>
+ <text x="62" y="212" font-family="sans-semibold" font-size="64" letter-spacing="-2" fill="{t['ink']}">{name}</text>
 </g>
 <g class="in2">
  <circle cx="1030" cy="160" r="104" fill="none" stroke="{t['line']}" stroke-width="2"/>
