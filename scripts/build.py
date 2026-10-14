@@ -39,7 +39,7 @@ PROJECTS = [
 
 LINKS = [
     ("website", "mahirsn.net", "globe"),
-    ("discord", "Discord", "discord"),
+    ("discord", "mahirsn", "discord"),
     ("instagram", "Instagram", "instagram"),
     ("youtube", "YouTube", "youtube"),
     ("reddit", "Reddit", "reddit"),

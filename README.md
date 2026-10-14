@@ -4,7 +4,7 @@
 
 <p>
   <a href="https://mahirsn.net"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/link-website-dark.svg"><img src="assets/link-website-light.svg" alt="mahirsn.net" height="44"></picture></a>
-  <a href="https://discord.gg/bir100sixteen"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/link-discord-dark.svg"><img src="assets/link-discord-light.svg" alt="Discord" height="44"></picture></a>
+  <a href="https://discord.com/users/758935116172230676"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/link-discord-dark.svg"><img src="assets/link-discord-light.svg" alt="Discord: mahirsn" height="44"></picture></a>
   <a href="https://www.instagram.com/mahirsn.1"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/link-instagram-dark.svg"><img src="assets/link-instagram-light.svg" alt="Instagram" height="44"></picture></a>
   <a href="https://www.youtube.com/@mahirsn"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/link-youtube-dark.svg"><img src="assets/link-youtube-light.svg" alt="YouTube" height="44"></picture></a>
   <a href="https://www.reddit.com/user/mahirsn1/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/link-reddit-dark.svg"><img src="assets/link-reddit-light.svg" alt="Reddit" height="44"></picture></a>
