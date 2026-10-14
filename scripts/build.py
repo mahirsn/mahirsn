@@ -34,7 +34,7 @@ PROJECTS = [
     ("mmsimpulse", "The illogical-impulse shell on KDE, without plasmashell.", "Python"),
     ("passkey", "Your Android fingerprint as a FIDO2 security key on Linux: login, sudo, polkit and browsers.", "Rust"),
     ("mahirsn-patches", "Morphe add-on patches for YouTube: watch history kept on your own server.", "Java"),
-    ("smthsModeration", "A highly customizable command executor for Minecraft moderation.", "Java"),
+    ("Craftography", "A camera mod for Minecraft: lens, exposure and framing controls, with photos up to 8K.", "Java"),
 ]
 
 LINKS = [

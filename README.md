@@ -15,5 +15,5 @@
   <a href="https://github.com/mahirsn/mmsimpulse"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-mmsimpulse-dark.svg"><img src="assets/project-mmsimpulse-light.svg" alt="mmsimpulse" width="49%"></picture></a>
   <a href="https://github.com/mahirsn/passkey"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-passkey-dark.svg"><img src="assets/project-passkey-light.svg" alt="passkey" width="49%"></picture></a>
   <a href="https://github.com/mahirsn/mahirsn-patches"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-mahirsn-patches-dark.svg"><img src="assets/project-mahirsn-patches-light.svg" alt="mahirsn-patches" width="49%"></picture></a>
-  <a href="https://github.com/mahirsn/smthsModeration"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-smthsModeration-dark.svg"><img src="assets/project-smthsModeration-light.svg" alt="smthsModeration" width="49%"></picture></a>
+  <a href="https://github.com/mahirsn/Craftography"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-Craftography-dark.svg"><img src="assets/project-Craftography-light.svg" alt="Craftography" width="49%"></picture></a>
 </p>
